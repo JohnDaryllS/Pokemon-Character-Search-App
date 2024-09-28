@@ -22,7 +22,7 @@ body {
     background-color: #795757;
     border: 1px solid #795757;
     border-radius: 15px;
-    box-shadow: 10px 10px 20px black;
+    box-shadow: 15px 15px 30px black;
   }
   
   .output, #search-form {
@@ -46,16 +46,19 @@ body {
     padding-left: 10px;
     width: 300px;
     border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
   }
   
   #search-button {
-    padding: 14px 0;
+    padding: 10px 0;
     width: 80px; 
     border-radius: 10px;
     border: none;
     text-align: center;
     background-color: hsl(128, 79%, 50%);
     color: #fafafa;
+    font-size: 20px;
   }
 
   #search-button:hover {
@@ -90,11 +93,13 @@ body {
     font-size: 1.1.rem;
     text-transform: capitalize;
     margin-bottom: 5px;
+    color: white;
   }
   
   .size {
     height: 22px;
     font-size: 0.85rem;
+    color: white;
   }
   
   .sprite-container {
@@ -144,6 +149,7 @@ body {
   td, th {
     text-align: center;
     padding: 8px;
+    color: white;
   }
   
   /* Special Styling for Pokemon Types */
