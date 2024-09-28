@@ -7,7 +7,6 @@ body {
     color: #3B3030;
   }
   
-  /* Main */
   main {
     display: flex;
     flex-direction: column;
@@ -15,7 +14,6 @@ body {
     justify-content: center;
   }
   
-  /* Form and Table */
   .container {
     width: 325px;
     margin: 25px 0;
@@ -151,8 +149,7 @@ body {
     padding: 8px;
     color: white;
   }
-  
-  /* Special Styling for Pokemon Types */
+
   .normal {
     background-color: #b7b7aa;
   }
@@ -221,7 +218,6 @@ body {
     background-color: #ed99ed;
   }
   
-  /* Media Queries */
   @media screen and (min-width: 550px) {
     .container {
       width: 450px;
