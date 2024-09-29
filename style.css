@@ -78,8 +78,11 @@ body {
   }
   
   .top-container {
-    margin-bottom: 10px;
+    margin-bottom: 10%;
     padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   }
 
   .bottom-container {
@@ -88,16 +91,19 @@ body {
   
   .name-and-id {
     height: 28px;
-    font-size: 1.1.rem;
+    font-size: 1.6rem;
     text-transform: capitalize;
     margin-bottom: 5px;
-    color: white;
+    color: rgb(7, 4, 4);
+    font-weight: bold;
+    text-align: center;
   }
   
   .size {
     height: 22px;
-    font-size: 0.85rem;
-    color: white;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
   }
   
   .sprite-container {
@@ -152,34 +158,42 @@ body {
 
   .normal {
     background-color: #b7b7aa;
+    border-radius: 50px;
   }
   
   .fire {
     background-color: #ff6f52;
+    border-radius: 50px;
   }
   
   .water {
     background-color: #42a1ff;
+    border-radius: 50px;
   }
   
   .electric {
     background-color: #fecc33;
+    border-radius: 50px;
   }
   
   .grass {
     background-color: #78cc55;
+    border-radius: 50px;
   }
   
   .ice {
     background-color: #66ccfe;
+    border-radius: 50px;
   }
   
   .fighting {
     background-color: #d3887e;
+    border-radius: 50px;
   }
   
   .poison {
     background-color: #c68bb7;
+    border-radius: 50px;
   }
   
   .ground {
@@ -188,34 +202,42 @@ body {
   
   .flying {
     background-color: #8899ff;
+    border-radius: 50px;
   }
   
   .psychic {
     background-color: #ff66a3;
+    border-radius: 50px;
   }
   
   .bug {
     background-color: #aabb23;
+    border-radius: 50px;
   }
   
   .rock {
     background-color: #baaa66;
+    border-radius: 50px;
   }
   
   .ghost {
     background-color: #9995d0;
+    border-radius: 50px;
   }
   
   .dragon {
     background-color: #b59682;
+    border-radius: 50px;
   }
   
   .steel {
     background-color: #abaabb;
+    border-radius: 50px;
   }
   
   .fairy {
     background-color: #ed99ed;
+    border-radius: 50px;
   }
   
   @media screen and (min-width: 550px) {
